@@ -68,42 +68,33 @@ button {
   height: 60px;
 }
 
-@media (max-width: 600px) {
-  h1 {
-    font-size: 12vw;
+@media screen and (max-width: 768px) {
+  main {
+      padding: 20px;
   }
-
   .quadrado {
-    max-width: 80vw;
-    padding: 10px;
-    margin: 50px auto;
+      width: 100%;
+      max-width: 400px;
+      margin: 0 auto;
   }
 
-  button {
-    width: 20vw;
-    margin-top: 20vh;
+  .input1, .input2 {
+      width: calc(100% - 40px);
+  }
+
+  #btnLogin {
+      width: 100%;
   }
 }
 
-
-@media (min-width: 601px){
-  
-  h1{
-  font-size: 100%;
+@media screen and (min-width: 769px) {
+  main {
+      padding: 50px;
   }
 
   .quadrado {
-    max-width: 70vw;
-    padding: 7vh;
-    margin: 7vw auto;
+      width: 50%;
+      max-width: 400px;
+      margin: 0 auto;
   }
-
-  button {
-    width: 60%;
-    margin-top: 60%;
-  }
-
 }
-
-
-
