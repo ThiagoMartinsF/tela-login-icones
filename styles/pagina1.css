@@ -68,10 +68,16 @@ i{
 }
 
 .tipos{
+    top: 16%;
+    position: absolute;
     color: #f0f8ff;
     text-align: center;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+
+a{
+    text-decoration: none;
 }
 
 section{
